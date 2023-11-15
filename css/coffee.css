@@ -1,4 +1,23 @@
-/*fonts to consider:*/
-/*
+@import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
 
- */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background-image: url("../img/victorian-18_720.png");
+
+
+}
+
+
+.hero {
+    height: 50vh;
+    background-image: url("../img/fall_coffee_shop_720.png");
+    background-repeat: no-repeat;
+
+}

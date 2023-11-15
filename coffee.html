@@ -14,23 +14,50 @@
     <title>Velvet Brew Coffee Co</title>
 </head>
 <body>
-<div class="page-wrapper">
-    <header class="container">
+<div class="pager wrapper">
+    <header class="container-fluid border-top">
         <div class="row">
-            <div class="col">
-
+            <div class="col d-flex justify-content-center">
+                <a class="navbar-brand d-flex align-items-center" href="#"><img
+                        src="img/elvet_brew-2_720.png" alt="Logo" class="img-fluid" style="max-width:500px;max-height:500px"></a>
             </div>
         </div>
     </header>
-    <div class="container">
-        <div class="row">
-            <div class="col" id="coffee-list">
+    <section class="container ">
+        <div class="row hero">
+            <div class="col" id="back-box">
+            </div>
+            <div class="col ">
 
             </div>
         </div>
-    </div>
+        <div class="container py-5">
+        <div class="row">
+            <div class="col d-flex">
+                <select class="form-select form-select-md " aria-label="Large select example" id="category">
+                    <option selected value="">Category</option>
+                    <option value="" selected>All</option>
+                    <option value="light">Light</option>
+                    <option value="medium"> Medium</option>
+                    <option value="dark">Dark</option>
+                </select>
+                <div class="input-group input-group-md ">
+                    <input id="search" type="search" class="form-control" aria-label="Search "
+                           placeholder="Search...">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <main class="container">
+        <div class="row">
+            <div class="col d-flex flex-wrap gap-5" id="coffee-list">
+
+            </div>
+        </div>
+    </main>
 </div>
 
 </body>
-<script src="./js/coffee.js"></script>
+<script type="module" src="js/main.js"></script>
 </html>
