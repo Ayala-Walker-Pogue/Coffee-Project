@@ -1,5 +1,4 @@
 const coffee = [
-
     {name: 'Black Ivory Coffee', roast: 'Light', type: ''},
     {name: 'Death Wish Coffee', roast: 'Dark'},
     {name: 'Kopi Luwak', roast: 'Medium'},
@@ -16,10 +15,32 @@ const coffee = [
     { name: 'Toasted Almond Mocha'},
     { name: 'Spiced Orange Caramel Latte'},
 
-
-
 ]
-// self note: this is the array of coffee objects and its properties. ^^^^
 
+
+// self note: this is the array of coffee objects and its properties. ^^^^
+// use cards
+// we need to make var for our values "name" "roast"
+//
+
+const renderCoffee = () => {
+    const coffeeList = document.createElement("div")
+    coffeeList.classList.add(".col")
+    coffeeList.innerHTML = `
+    <div class="card" style="width: 18rem;">
+  <img src="" class="card-img-top" alt="">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+    
+    
+    
+    
+    
+    
+    `;
+
+}
 
 
