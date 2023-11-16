@@ -26,6 +26,33 @@ background-image: url("../img/victorian-18_720.png");
 }
 h2{
     text-align: center;
-    font-size: 43px;
-    font-weight: bold;
+    font-size: 70px;
+    font-weight: bolder;
+}
+.navbar {
+    color: saddlebrown;
+    font-weight: bolder;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 50px; /* Adjust the gap as needed */
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar-brand,
+.nav-list a {
+    color: saddlebrown; /* Adjust the color as needed */
+    text-decoration: solid;
+    font-size: 25px; /* Adjust the font size as needed */
+    font-weight: bolder;
+
 }
