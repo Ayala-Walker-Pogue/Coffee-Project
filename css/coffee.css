@@ -64,6 +64,10 @@ background-image: url("../img/victorian-18_720.png");
 .card-text{
     text-align: center;
 }
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 18rem;
+}
 
 
 .hero{
@@ -88,11 +92,11 @@ h2 {
     margin-right: 10px;
 
 }
+
 .navbar {
     color: saddlebrown;
     font-weight: bolder;
-}
-.navbar {
+    background-color: rgba(255, 255, 255, 0.9);
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
