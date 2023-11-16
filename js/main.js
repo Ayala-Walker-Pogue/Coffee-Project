@@ -5,18 +5,18 @@ const renderCoffee = (coffee) => {
     const coffeeElement = document.createElement("div")
     coffeeElement.classList.add(".col");
     coffeeElement.innerHTML = `
-       <div class="card" style="width: 18rem;">
-          <img src="${coffeeImage}" class="card-img-top" alt="">
-          <div class="card-body">
-            <h5 class="card-title">${coffee.name}</h5>
-            <p class="card-text">${coffee.description}</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Coffee: ${coffee.name}</li>
-            <li class="list-group-item">Roast: ${coffee.roast}</li>
-            <li class="list-group-item">Price: ${coffee.price}</li>
-           </ul>
-        </div>
+       <div class="card" style="width: 18rem; background-color: rgba(255, 255, 255, 0.8);">
+  <img src="${coffeeImage}" class="card-img-top"" alt="">
+  <div class="card-body">
+    <h5 class="card-title">${coffee.name}</h5>
+    <p class="card-text">${coffee.description}</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Roast: ${coffee.roast}</li>
+    <li class="list-group-item ">Price: ${coffee.price}</li>
+  </ul>
+</div>
+
     `;
     return coffeeElement;
 }

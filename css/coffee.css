@@ -1,4 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
+/*font-family: 'Sirin Stencil', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+/*font-family: 'Fleur De Leah', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+/*font-family: 'Passions Conflict', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ruthie&display=swap');
+/*font-family: 'Ruthie', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+/*font-family: 'Kenia', sans-serif;*/
+
+
+
 
 
 
@@ -15,19 +31,45 @@ background-image: url("../img/victorian-18_720.png");
 }
 
 
-.hero {
+.pickgradient {
+    /*background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); !* Chrome10+,Safari5.1+ *!*/
+    border-radius: 45px;
+}
+
+.card {
+    border-radius: 200px;
+    border: none;
+}
+.list-group-item {
+    border: none;
+    background: none;
+    text-align: center;
+
+}
+.card-image-top{
+    opacity: 1;
+}
+
+
+.hero{
+    position:relative;
+    z-index:-1;
+    display:block;
     height: 60vh;
-    width: 140vh;
-    background-image: url("../img/fall_coffee_shop_720.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    width: 100%;
+    border-radius: 45px;
+}
+span{
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
 h2 {
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bolder;
+    color:black;
+    font-family: 'Fleur De Leah', cursive;
 }
 .navbar {
     color: saddlebrown;
@@ -50,12 +92,49 @@ h2 {
 .nav-list a {
     color: saddlebrown; /* Adjust the color as needed */
     text-decoration: solid;
-    font-size: 20px; /* Adjust the font size as needed */
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 30px; /* Adjust the font size as needed */
     font-weight: bolder;
 }
+
+footer {
+    background-color: saddlebrown;
+    color: beige;
+    font-weight: inherit;
+    text-align: center;
+    padding: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@keyframes logoHover {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#logo {
+    transition: transform 0.3s;
+}
+
+#logo:hover {
+    animation: logoHover 2s infinite;
+}
+
+
+
 
 @media (max-width: 568px) {
     .hero {
         height: 40vh; /* Adjust height for smaller screens */
     }
 }
+
+
