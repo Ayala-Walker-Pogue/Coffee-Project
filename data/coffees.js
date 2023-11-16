@@ -93,24 +93,28 @@ export const coffees = [
     {
         name: 'Eggnog Latte',
         price: 5.99,
+        roast: 'None',
         img: './img/14_720.png',
         description: 'A creamy and festive coffee beverage, perfect for the holiday season.'
     },
     {
         name: 'Cinnamon Maple Coffee',
         price: 6.49,
+        roast: 'None',
         img: './img/elvet_brew-4_720.png',
         description: 'Sweet and spiced, featuring the comforting flavors of cinnamon and maple.'
     },
     {
         name: 'Toasted Almond Mocha',
         price: 7.99,
+        roast: 'None',
         img: './img/16_720.png',
         description: 'A delightful blend of chocolate, coffee, and toasted almond flavors.'
     },
     {
         name: 'Spiced Orange Caramel Latte',
         price: 6.99,
+        roast: 'None',
         img: './img/17_720.png',
         description: 'A warm and indulgent beverage with a fusion of spiced orange and caramel notes.'
     },

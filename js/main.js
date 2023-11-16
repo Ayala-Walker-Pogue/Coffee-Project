@@ -12,8 +12,8 @@ const renderCoffee = (coffee) => {
     <p class="card-text">${coffee.description}</p>
   </div>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item">Roast: ${coffee.roast}</li>
-    <li class="list-group-item ">Price: ${coffee.price}</li>
+    <li class="list-group-item ">Roast: ${coffee.roast}</li>
+    <li class="list-group-item margin-bottom">Price: ${coffee.price}</li>
   </ul>
 </div>
 

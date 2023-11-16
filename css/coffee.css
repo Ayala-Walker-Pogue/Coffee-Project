@@ -13,12 +13,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
 /*font-family: 'Kenia', sans-serif;*/
 
-
-
-
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -37,31 +31,52 @@ background-image: url("../img/victorian-18_720.png");
 }
 
 .card {
+    font-weight: bold;
+    color: saddlebrown;
     border-radius: 200px;
     border: none;
 }
 .list-group-item {
+    padding: 0;
+    font-weight: bold;
+    color: saddlebrown;
     border: none;
     background: none;
     text-align: center;
 
 }
+.form-control{
+    display: flex;
+}
+.navbar-icon {
+    width: 40px;
+    height: 50px;
+}
+.margin-bottom {
+    margin-bottom: 25px;
+}
 .card-image-top{
     opacity: 1;
+}
+.card-title {
+    text-align: center;
+}
+.card-text{
+    text-align: center;
 }
 
 
 .hero{
-    position:relative;
-    z-index:-1;
+
     display:block;
     height: 60vh;
     width: 100%;
     border-radius: 45px;
 }
 span{
-    font-family: sans-serif;
-    font-size: 20px;
+    font-family: 'Fleur De Leah', cursive;
+    /*font-size: 40px;*/
+
 }
 
 h2 {
@@ -124,6 +139,15 @@ footer {
 
 #logo {
     transition: transform 0.3s;
+    max-width: 500px;
+    max-height: 575px;
+
+}
+.vid {
+    border-radius: 25px;
+    width: 90vw;
+    height: 60vh;
+    object-fit: fill ;
 }
 
 #logo:hover {
@@ -132,7 +156,7 @@ footer {
 
 
 .card img:hover{
-    animation: logoHover 2s infinite;
+    animation: logoHover 1.5s infinite;
 
 }
 
