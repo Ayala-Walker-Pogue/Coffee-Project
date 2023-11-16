@@ -16,8 +16,16 @@ background-image: url("../img/victorian-18_720.png");
 
 
 .hero {
-    height: 50vh;
+    height: 60vh;
+    width: 120vh;
     background-image: url("../img/fall_coffee_shop_720.png");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
 
+}
+h2{
+    text-align: center;
+    font-size: 43px;
+    font-weight: bold;
 }
