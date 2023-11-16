@@ -1,11 +1,12 @@
 import { coffees } from "../data/coffees.js";
 
 const renderCoffee = (coffee) => {
+    const coffeeImage = coffee.img ? coffee.img : "./img/1_720.png";
     const coffeeElement = document.createElement("div")
-    coffeeElement.classList.add(".col")
+    coffeeElement.classList.add(".col");
     coffeeElement.innerHTML = `
        <div class="card" style="width: 18rem;">
-          <img src="./img/1_720.png" class="card-img-top" alt="">
+          <img src="${coffeeImage}" class="card-img-top" alt="">
           <div class="card-body">
             <h5 class="card-title">${coffee.name}</h5>
             <p class="card-text">${coffee.description}</p>
