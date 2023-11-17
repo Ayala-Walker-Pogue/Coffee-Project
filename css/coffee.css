@@ -1,17 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
-/*font-family: 'Sirin Stencil', sans-serif;*/
-
 @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
-/*font-family: 'Fleur De Leah', cursive;*/
-
 @import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
-/*font-family: 'Passions Conflict', cursive;*/
-
 @import url('https://fonts.googleapis.com/css2?family=Ruthie&display=swap');
-/*font-family: 'Ruthie', cursive;*/
-
 @import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
-/*font-family: 'Kenia', sans-serif;*/
+
 
 *{
     margin: 0;
@@ -26,7 +18,7 @@ background-image: url("../img/victorian-18_720.png");
 
 
 .pickgradient {
-    /*background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); !* Chrome10+,Safari5.1+ *!*/
+
     border-radius: 45px;
 }
 .text-margin {
@@ -127,17 +119,17 @@ h3 {
 .nav-list {
     list-style: none;
     display: flex;
-    gap: 50px; /* Adjust the gap as needed */
+    gap: 50px;
     padding: 0;
     margin: 0;
 }
 
 .navbar-brand,
 .nav-list a {
-    color: saddlebrown; /* Adjust the color as needed */
+    color: saddlebrown;
     text-decoration: solid;
     font-family: 'Fleur De Leah', cursive;
-    font-size: 30px; /* Adjust the font size as needed */
+    font-size: 30px;
     font-weight: bolder;
 }
 
@@ -152,17 +144,6 @@ footer {
 }
 
 
-@keyframes logoHover {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.1);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
 
 #logo {
     transition: transform 0.3s;
@@ -187,9 +168,20 @@ footer {
 
 }
 
+@keyframes logoHover {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 @media (max-width: 568px) {
     .hero {
-        height: 40vh; /* Adjust height for smaller screens */
+        height: 40vh;
     }
 }
 
