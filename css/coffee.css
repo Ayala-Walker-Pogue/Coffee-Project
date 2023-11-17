@@ -29,6 +29,9 @@ background-image: url("../img/victorian-18_720.png");
     /*background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); !* Chrome10+,Safari5.1+ *!*/
     border-radius: 45px;
 }
+.text-margin {
+    margin-bottom: 45px;
+}
 
 .card {
     font-weight: bold;
@@ -68,16 +71,18 @@ background-image: url("../img/victorian-18_720.png");
     background-color: rgba(255, 255, 255, 0.8);
     width: 18rem;
 }
-
+.span-desc {
+    opacity: 1;
+}
 
 .hero{
 
     display:block;
     height: 60vh;
-    width: 100%;
+    width: 50%;
     border-radius: 45px;
 }
-span{
+.span-navbar{
     font-family: 'Fleur De Leah', cursive;
     /*font-size: 40px;*/
 
@@ -90,7 +95,25 @@ h2 {
     color: saddlebrown;
     font-family: 'Fleur De Leah', cursive;
     margin-right: 10px;
+}
+h3 {
+    font-size: 50px;
+    font-weight: bolder;
+    color: saddlebrown;
+    font-family: cursive;
+    opacity: 0.8;
+    border-radius: 50px;
 
+}
+
+.box-behind-h2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1px;
+    display: inline-block;
+    border-radius: 23px;
+    margin: 2%;
+    width: 90vw;
+    height: 9vh;
 }
 
 .navbar {
@@ -155,7 +178,7 @@ footer {
 }
 
 #logo:hover {
-    animation: logoHover 2s infinite;
+    animation: logoHover 3s infinite;
 }
 
 

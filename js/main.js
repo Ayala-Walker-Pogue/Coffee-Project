@@ -1,6 +1,7 @@
 import { coffees } from "../data/coffees.js";
 
 const renderCoffee = (coffee) => {
+    let text = coffee.price.toLocaleString("en-US", {style:"currency", currency:"USD"});
     const coffeeImage = coffee.img ? coffee.img : "./img/1_720.png";
     const coffeeElement = document.createElement("div")
     coffeeElement.classList.add(".col");
@@ -13,7 +14,7 @@ const renderCoffee = (coffee) => {
   </div>
   <ul class="list-group list-group-flush">
     <li class="list-group-item ">Roast: ${coffee.roast}</li>
-    <li class="list-group-item margin-bottom">Price: ${coffee.price}</li>
+    <li class="list-group-item margin-bottom">Price: ${text}</li>
   </ul>
 </div>
 
